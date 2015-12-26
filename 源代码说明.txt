@@ -1,0 +1,9 @@
+1、若出现中文注释乱码的情况，请将编码格式改为GBK编码。
+
+2、调试运行时应当在相关目录下放入游戏文件，否则会出现找不到游戏文件错误，影响调试。
+例如：
+生成的exe文件在：C:\Users\admin\Desktop\build-MClauncher-Desktop_Qt_5_0_2_MinGW_32bit_qt_502-Debug\debug
+那么游戏文件.minecraft文件应在：C:\Users\admin\Desktop\build-MClauncher-Desktop_Qt_5_0_2_MinGW_32bit_qt_502-Debug
+即为exe的上层目录。
+
+3、必须使用Qt5编译，因为使用了Qt5的新类。
